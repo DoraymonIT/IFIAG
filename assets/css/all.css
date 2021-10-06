@@ -260,11 +260,17 @@ button {
   height: 36px;
   transition: 0.3s;
 }
-.hero_image  {
-    margin: inherit;background: #fd5533;border-radius: 190px 5px 5px 5px;box-shadow: -8px -8px 1px 4px #337ab9;
+.hero_image {
+  margin: inherit;
+  background: #fd5533;
+  border-radius: 190px 5px 5px 5px;
+  box-shadow: -8px -8px 1px 4px #337ab9;
+  height: 100%;
+  width: 100%;
 }
 .hero_image img {
   width: 828px;
+  margin-left: -80px;
 }
 .the-border-top {
   border-top: 1px solid #f36f55;
@@ -909,13 +915,13 @@ div#lp {
 .fa-icon-cs {
   color: #fd5533;
 }
-.underlined{
+.underlined {
   position: relative;
   display: inline-block !important;
 }
 
 .underlined::before {
-  content:"";
+  content: "";
   position: absolute;
   bottom: -10px;
   z-index: -9;
@@ -953,11 +959,18 @@ div#lp {
   .apropos {
     grid-template-columns: 1fr 1fr 1fr !important;
   }
+  
 }
 @media only screen and (max-width: 1056px) {
- 
   .hero_image img {
     width: 660px !important;
+  }
+}
+@media only screen and (max-width: 765px) {
+
+  .hero_image img {
+    width: 628px !important;
+    margin-left: unset !important;
   }
 }
 @media only screen and (max-width: 670px) {
@@ -971,6 +984,7 @@ div#lp {
   }
   .hero_image img {
     width: 628px !important;
+    
   }
 }
 @media only screen and (max-width: 584px) {
@@ -993,11 +1007,12 @@ div#lp {
   .apropos {
     grid-template-columns: 1fr 1fr !important;
   }
-  .hero_image{
-      margin:unset;
+  .hero_image {
+    margin: unset;
   }
   .hero_image img {
     width: 100% !important;
+   
   }
 }
 @media only screen and (max-width: 467px) {
@@ -2377,6 +2392,13 @@ label {
 .image_formation {
   cursor: pointer;
 }
+@media only screen and (max-width: 1200px) {
+ 
+  .hero_image img {
+    width: 600px ;
+    margin-left: -70px;
+}
+}
 @media only screen and (max-width: 990px) {
   .qr_hero h3 {
     font-size: 26px;
@@ -2391,6 +2413,9 @@ label {
     font-size: 12px;
     font-weight: 700;
   }
+  .hero_image img {
+    width: 528px ;
+}
 }
 @media only screen and (max-width: 750px) {
   .text-right {
