@@ -285,6 +285,7 @@
   background: url(../img/landing-page2-back.png) #39424e;
   background-size: cover;
   height: 100%;
+  background-attachment: fixed;
 }
 .hero-page-landing h6 {
   line-height: 27px;
