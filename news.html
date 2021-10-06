@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="assets/js/bootstrap/css/bootstrap.min.css" />
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <link href="assets/js/aos/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css"
+    />
+
+    <link
+      href="assets/js/owl.carousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/home-page.css" />
+    <link rel="stylesheet" href="assets/css/clients.css" />
+    <link rel="stylesheet" href="assets/css/formations.css" />
+    <link rel="stylesheet" href="assets/css/cta.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/css/menu.css" />
+    <link rel="stylesheet" href="assets/css/loading.css" />
+    <link rel="stylesheet" href="assets/css/blog.css" />
+    <title>
+     News & Blogs - IFIAG 
+    </title>
+  </head>
+
+  <body>
+<!-- <div id="loading"></div>
+    <div class="page"> -->
+      <!-- //============================================
+                     Header Start 
+        =============================================// -->
+      <!-- Mobile Menu -->
+      <div class="mobile-menu-container">
+        <div class="mobile-menu-close"></div>
+        <div id="mobile-menu-wrap"></div>
+      </div>
+      <!-- Mobile Menu End -->
+
+      <header id="header" class="header header-sticky sticky-top">
+        <!--// Main header -->
+        <div class="main-header">
+          <div class="container">
+            <nav class="navbar navbar-expand-lg main-navigation p-0">
+              <!--  Show this only on mobile to medium screens  -->
+              <a class="navbar-brand" href="#">
+                <img
+                    src="assets/img/IFIAG.png"
+                  class="img-fluid"
+                  alt="IFIAG Logo"
+                  width="100px"
+                />
+              </a>
+              <button class="mobile-menu-trigger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+              <!--  Use flexbox utility classes to change how the child elements are justified  -->
+              <div class="header-navigation-area justify-content-between">
+                <ul id="main-menu" class="menu m-0">
+                  <li class="menu-item-has-children">
+                    <a>L'institut
+                      <i class="fa fa-angle-down" aria-hidden="true"></i
+                    ></a>
+                    <ul class="sub-menu institut">
+                      <li>
+                        <a href="qui-sommes-nous.html" class="forma intitut-a"
+                          >Qui sommes nous ?
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="projet-pedagogique.html"
+                          class="forma intitut-a"
+                          >Projet pédagogique
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="campus-et-laureats.html"
+                          class="forma intitut-a"
+                          >Campus & Lauréats</a
+                        >
+                      </li>
+                      <!-- <li><a href=>Présentation de l’IFIAG</a></li>
+                      <li>
+                        <a href=
+                          >Partenariats académiques et professionnels</a
+                        >
+                      </li>
+                      <li><a href=>Rejoindre l'équipe</a></li> -->
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a>Formations
+                      <i class="fa fa-angle-down" aria-hidden="true"></i
+                    ></a>
+                    <ul class="sub-menu all-formationss">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="title-menu1">Accès post-bac :</div>
+                          <p class="description-menu1">
+                            Cycles Bac+3 : 2 diplômes accrédités & 1 année de
+                            stage .
+                          </p>
+                          <div class="formations-menu">
+                            <a
+                              class="no-padd intitut-a"
+                              href="dts/dts-gestion-entreprenariat.html"
+                              ><h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Gestion des entreprises
+                              </h5></a
+                            >
+                            <a
+                              class="no-padd intitut-a"
+                              href="dts/dts-developpement-informatique.html"
+                            >
+                              <h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Développement Informatique
+                              </h5></a
+                            >
+                            <a
+                              class="no-padd intitut-a"
+                              href="dts/dts-reseau-systemes-securite.html"
+                              ><h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Réseaux, Systèmes & Sécurité
+                              </h5></a
+                            >
+                           <a
+                              class="no-padd intitut-a"
+                              href="dts/dts-commerce-international-logistique.html"
+                              ><h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Commerce International & Logistique 
+                              </h5></a
+                            >
+                            <a
+                              class="no-padd intitut-a"
+                              href="dts/dts-finance-controle-gestion.html"
+                            >
+                              <h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Finance & Comptabilité
+                              </h5></a
+                            >
+                            <a
+                              class="no-padd intitut-a"
+                              href="dts/dts-marketing-communication.html"
+                              ><h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Marketing & Communication
+                              </h5></a
+                            >
+                          </div>
+
+                          <!-- <div class="title-menu1">
+                            Formation Continue Entreprises :
+                          </div>
+                          <div class="formations-menu">
+                            <a
+                              class="no-padd intitut-a"
+                              href="formation-continue/formation-continue-entreprises.html"
+                              ><h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Formation Continue Entreprises
+                              </h5></a
+                            >
+                          </div> -->
+                        </div>
+                        <div class="col-md-6">
+                          <div class="title-menu1">Accès BAC +3 :</div>
+                          <p class="description-menu1">
+                            Licences Professionnelles étatiques françaises
+                          </p>
+                          <div class="formations-menu">
+                            <a
+                              class="no-padd intitut-a"
+                              href="lp/licence-management-entreprenariat.html"
+                              ><h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Management & Entrepreneuriat (CNAM)
+                              </h5></a
+                            >
+                            <a
+                              class="no-padd intitut-a"
+                              href="lp/licence-controle-gestion.html"
+                            >
+                              <h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Finance , Audit & Contrôle de Gestion (Paris 13 Sorbonne)
+                              </h5></a
+                            >
+                            <a
+                              class="no-padd intitut-a"
+                              href="lp/licence-dev-web-mobile.html"
+                              ><h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Développement WEB & Mobile (Paris 13- Sorbonne)
+                              </h5></a
+                            >
+                              <a
+                              class="no-padd intitut-a"
+                              href="lp/licence-logistique-internationale.html"
+                              ><h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Logistique & Transport International (CNAM)
+                              </h5></a
+                            >
+                            <a
+                              class="no-padd intitut-a"
+                              href="lp/licence-marketing-digital.html"
+                              ><h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Marketing Digital & Web Analytics (CNAM)
+                              </h5></a
+                            >
+                          </div>
+
+                         <!--  <div class="title-menu1">
+                            Formations courtes avec Certification :
+                          </div>
+                          <div class="formations-menu">
+                            <a
+                              class="no-padd intitut-a"
+                              href="formation-avec-certificat/formations-courtes-certification.html"
+                              ><h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Formations courtes avec Certification
+                              </h5></a
+                            >
+                          </div>-->
+                        </div>
+                      </div>
+                    </ul>
+                    <!-- <ul class="sub-menu all-formationss">
+                      <div class="title-menu1">
+                        <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        Accès post-bac :
+                      </div>
+                      <p class="description-menu1">
+                        Cycles Bac+3 : 2 diplômes accrédités & 1 année de stage
+                        .
+                      </p>
+
+                      <a class="no-padd" href="dts/dts-finance-controle-gestion.html"
+                        ><h5 class="forma">Finance & Controle de gestion</h5></a
+                      >
+                      <a  class="no-padd" href="dts/dts-developpement-informatique.html">
+                        <h5 class="forma">Développement Informatique</h5></a
+                      >
+                      <a  class="no-padd" href="dts/dts-developpement-informatique.html"
+                        ><h5 class="forma">Réseaux, Systèmes & Sécurité</h5></a
+                      >
+                      <div class="title-menu1">
+                        <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        Accès BAC +3 :
+                      </div>
+                      <p class="description-menu1">
+                        Licences Professionnelles étatiques françaises 
+                      </p>
+                      <a  class="no-padd" href="dts/dts-developpement-informatique.html"
+                        ><h5 class="forma">Gestion des entreprises</h5></a
+                      >
+                      <a  class="no-padd" href="dts/dts-developpement-informatique.html">
+                        <h5 class="forma">Développement Informatique</h5></a
+                      >
+                      <a  class="no-padd" href="dts/dts-developpement-informatique.html"
+                        ><h5 class="forma">Réseaux, Systèmes & Sécurité</h5></a
+                      >
+                         <div class="title-menu1">
+                        <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        Formation Continue Entreprises :
+                      </div>
+                      <a  class="no-padd" href="dts/dts-developpement-informatique.html"
+                        ><h5 class="forma">Formation Continue Entreprises</h5></a
+                      >
+                      <div class="title-menu1">
+                        <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        Formations courtes avec Certification :
+                      </div>
+                      <a  class="no-padd" href="dts/dts-developpement-informatique.html"
+                        ><h5 class="forma">Formations courtes avec Certification</h5></a
+                      >
+                  
+                  
+                    </ul> -->
+                  </li>
+
+                   <li class="menu-item-has-children">
+                    <a >Orientation & News
+                      <i class="fa fa-angle-down" aria-hidden="true"></i
+                    ></a>
+                    <ul class="sub-menu autres">
+                      <li>
+                        <a  class="intitut-a"
+                          >Orientation Professionnelle</a
+                        >
+                      </li>
+                      <li><a class="intitut-a">Evenements</a></li>
+                      <li><a class="intitut-a">Student Stories</a></li>
+                      <li><a  class="intitut-a">News </a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="
+                  header-navigation-area
+                  candidature
+                  menu-item-has-children
+                "
+              >
+                <div class="row">
+                  <div class="col-md-12">
+                    <button
+                      onclick="location.href='candidature.html'"
+                      class="candider"
+                    >
+                      Je candidate
+                    </button>
+                  </div>
+                  <!-- <div class="col-md-6"></div> -->
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <!--// Main End -->
+      </header>
+      <!-- //============================================
+                   Header End
+      =============================================// -->
+ 
+      <main id="main">
+
+        <!-- ======= Blog Section ======= -->
+        <section id="blog" class="blog">
+          <div class="container" >
+    
+            <div class="row">
+    
+              <div class="col-lg-8 entries">
+    
+                <article class="entry">
+    
+                  <div class="entry-img">
+                    <img src="assets/img/blog/blog-1.jpg" alt= class="img-fluid">
+                  </div>
+    
+                  <h2 class="entry-title">
+                    <a href="blog-single.html">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</a>
+                  </h2>
+    
+                  <div class="entry-meta">
+                    <ul>
+                      <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
+                      <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                      <li class="d-flex align-items-center"><i class="icofont-comment"></i> <a href="blog-single.html">12 Comments</a></li>
+                    </ul>
+                  </div>
+    
+                  <div class="entry-content">
+                    <p>
+                      Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta.
+                      Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.
+                    </p>
+                    <div class="read-more">
+                      <a href="blog-single.html">Read More</a>
+                    </div>
+                  </div>
+    
+                </article><!-- End blog entry -->
+    
+                <article class="entry">
+    
+                  <div class="entry-img">
+                    <img src="assets/img/blog/blog-2.jpg" alt= class="img-fluid">
+                  </div>
+    
+                  <h2 class="entry-title">
+                    <a href="blog-single.html">Nisi magni odit consequatur autem nulla dolorem</a>
+                  </h2>
+    
+                  <div class="entry-meta">
+                    <ul>
+                      <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
+                      <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                      <li class="d-flex align-items-center"><i class="icofont-comment"></i> <a href="blog-single.html">12 Comments</a></li>
+                    </ul>
+                  </div>
+    
+                  <div class="entry-content">
+                    <p>
+                      Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et. Quo libero rerum voluptatem pariatur nam.
+                      Ad impedit qui officiis est in non aliquid veniam laborum. Id ipsum qui aut. Sit aliquam et quia molestias laboriosam. Tempora nam odit omnis eum corrupti qui aliquid excepturi molestiae. Facilis et sint quos sed voluptas. Maxime sed tempore enim omnis non alias odio quos distinctio.
+                    </p>
+                    <div class="read-more">
+                      <a href="blog-single.html">Read More</a>
+                    </div>
+                  </div>
+    
+                </article><!-- End blog entry -->
+    
+                <article class="entry">
+    
+                  <div class="entry-img">
+                    <img src="assets/img/blog/blog-3.jpg" alt= class="img-fluid">
+                  </div>
+    
+                  <h2 class="entry-title">
+                    <a href="blog-single.html">Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit sint.</a>
+                  </h2>
+    
+                  <div class="entry-meta">
+                    <ul>
+                      <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
+                      <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                      <li class="d-flex align-items-center"><i class="icofont-comment"></i> <a href="blog-single.html">12 Comments</a></li>
+                    </ul>
+                  </div>
+    
+                  <div class="entry-content">
+                    <p>
+                      Aut iste neque ut illum qui perspiciatis similique recusandae non. Fugit autem dolorem labore omnis et. Eum temporibus fugiat voluptate enim tenetur sunt omnis.
+                      Doloremque est saepe laborum aut. Ipsa cupiditate ex harum at recusandae nesciunt. Ut dolores velit.
+                    </p>
+                    <div class="read-more">
+                      <a href="blog-single.html">Read More</a>
+                    </div>
+                  </div>
+    
+                </article><!-- End blog entry -->
+    
+                <article class="entry">
+    
+                  <div class="entry-img">
+                    <img src="assets/img/blog/blog-4.jpg" alt= class="img-fluid">
+                  </div>
+    
+                  <h2 class="entry-title">
+                    <a href="blog-single.html">Non rem rerum nam cum quo minus. Dolor distinctio deleniti explicabo eius exercitationem.</a>
+                  </h2>
+    
+                  <div class="entry-meta">
+                    <ul>
+                      <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
+                      <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                      <li class="d-flex align-items-center"><i class="icofont-comment"></i> <a href="blog-single.html">12 Comments</a></li>
+                    </ul>
+                  </div>
+    
+                  <div class="entry-content">
+                    <p>
+                      Aspernatur rerum perferendis et sint. Voluptates cupiditate voluptas atque quae. Rem veritatis rerum enim et autem. Saepe atque cum eligendi eaque iste omnis a qui.
+                      Quia sed sunt. Ea asperiores expedita et et delectus voluptates rerum. Id saepe ut itaque quod qui voluptas nobis porro rerum. Quam quia nesciunt qui aut est non omnis. Inventore occaecati et quaerat magni itaque nam voluptas. Voluptatem ducimus sint id earum ut nesciunt sed corrupti nemo.
+                    </p>
+                    <div class="read-more">
+                      <a href="blog-single.html">Read More</a>
+                    </div>
+                  </div>
+    
+                </article><!-- End blog entry -->
+    
+                <div class="blog-pagination">
+                  <ul class="justify-content-center">
+                    <li class="disabled"><i class="icofont-rounded-left"></i></li>
+                    <li><a href="#">1</a></li>
+                    <li class="active"><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#"><i class="icofont-rounded-right"></i></a></li>
+                  </ul>
+                </div>
+    
+              </div><!-- End blog entries list -->
+    
+              <div class="col-lg-4">
+    
+                <div class="sidebar">
+    
+                  <h3 class="sidebar-title">Search</h3>
+                  <div class="sidebar-item search-form">
+                    <form >
+                      <input type="text">
+                      <button type="submit"><i class="icofont-search"></i></button>
+                    </form>
+                  </div><!-- End sidebar search formn-->
+    
+                  <h3 class="sidebar-title">Categories</h3>
+                  <div class="sidebar-item categories">
+                    <ul>
+                      <li><a href="#">General <span>(25)</span></a></li>
+                      <li><a href="#">Lifestyle <span>(12)</span></a></li>
+                      <li><a href="#">Travel <span>(5)</span></a></li>
+                      <li><a href="#">Design <span>(22)</span></a></li>
+                      <li><a href="#">Creative <span>(8)</span></a></li>
+                      <li><a href="#">Educaion <span>(14)</span></a></li>
+                    </ul>
+                  </div><!-- End sidebar categories-->
+    
+                  <h3 class="sidebar-title">Recent Posts</h3>
+                  <div class="sidebar-item recent-posts">
+                    <div class="post-item clearfix">
+                      <img src="assets/img/blog/blog-recent-1.jpg" alt=>
+                      <h4><a href="blog-single.html">Nihil blanditiis at in nihil autem</a></h4>
+                      <time datetime="2020-01-01">Jan 1, 2020</time>
+                    </div>
+    
+                    <div class="post-item clearfix">
+                      <img src="assets/img/blog/blog-recent-2.jpg" alt=>
+                      <h4><a href="blog-single.html">Quidem autem et impedit</a></h4>
+                      <time datetime="2020-01-01">Jan 1, 2020</time>
+                    </div>
+    
+                    <div class="post-item clearfix">
+                      <img src="assets/img/blog/blog-recent-3.jpg" alt=>
+                      <h4><a href="blog-single.html">Id quia et et ut maxime similique occaecati ut</a></h4>
+                      <time datetime="2020-01-01">Jan 1, 2020</time>
+                    </div>
+    
+                    <div class="post-item clearfix">
+                      <img src="assets/img/blog/blog-recent-4.jpg" alt=>
+                      <h4><a href="blog-single.html">Laborum corporis quo dara net para</a></h4>
+                      <time datetime="2020-01-01">Jan 1, 2020</time>
+                    </div>
+    
+                    <div class="post-item clearfix">
+                      <img src="assets/img/blog/blog-recent-5.jpg" alt=>
+                      <h4><a href="blog-single.html">Et dolores corrupti quae illo quod dolor</a></h4>
+                      <time datetime="2020-01-01">Jan 1, 2020</time>
+                    </div>
+    
+                  </div><!-- End sidebar recent posts-->
+    
+                  <h3 class="sidebar-title">Tags</h3>
+                  <div class="sidebar-item tags">
+                    <ul>
+                      <li><a href="#">App</a></li>
+                      <li><a href="#">IT</a></li>
+                      <li><a href="#">Business</a></li>
+                      <li><a href="#">Mac</a></li>
+                      <li><a href="#">Design</a></li>
+                      <li><a href="#">Office</a></li>
+                      <li><a href="#">Creative</a></li>
+                      <li><a href="#">Studio</a></li>
+                      <li><a href="#">Smart</a></li>
+                      <li><a href="#">Tips</a></li>
+                      <li><a href="#">Marketing</a></li>
+                    </ul>
+                  </div><!-- End sidebar tags-->
+    
+                </div><!-- End sidebar -->
+    
+              </div><!-- End blog sidebar -->
+    
+            </div>
+    
+          </div>
+        </section><!-- End Blog Section -->
+    
+      </main><!-- End #main -->
+    
+      <!-- ======= Footer ======= -->
+      <footer id="footer">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 footer-links">
+                <!-- <h4>Intro</h4> -->
+                <img
+                  src="../assets/icons/ifiag-blanc.png"
+                  width="110px"
+                  alt=
+                />
+                <p>
+                  <br />
+                  Depuis 1986, nous sommes à l’écoute du marché de l’emploi.
+                  Pour cela, nos programmes sont conçus de façon à répondre aux
+                  besoin des entreprises. Le but est de faire ressortir notre
+                  choix stratégique de “métiers” sur lesquels on prépare nos
+                  futurs managers.
+                </p>
+                <hr />
+                <h4>Nos Locations ?</h4>
+                <ul>
+                  <li>
+                    <a href="../campus-et-laureats.html"> IFIAG CASABLANCA</a>
+                  </li>
+                  <li><a href="../campus-et-laureats.html"> IFIAG RABAT</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4 footer-links">
+                <h4>Nos Formations</h4>
+              <div id="accordion">
+                  <button
+                    class="formtions-btn collapsed"
+                    data-toggle="collapse"
+                    data-target="#dts"
+                    aria-expanded="false"
+                    aria-controls="dts"
+                  >
+                    Diplôme Technicien Spécialisé
+                  </button>
+                  <div id="dts" class="collapse" data-parent="#accordion">
+                    <ul>
+                      <li><a href="dts/dts-gestion-entreprenariat.html"> Gestion des entreprises</a></li>
+                      <li><a href="dts/dts-developpement-informatique.html"> Développement Informatique</a></li>
+                      <li><a href="dts/dts-reseau-systemes-securite.html"> Réseaux, Systèmes & Sécurité</a></li>
+                      <li>
+                        <a href="dts/dts-commerce-international-logistique.html"> Logistique & Transport International</a>
+                      </li>
+                      <li><a href="dts/dts-finance-controle-gestion.html"> Finance & Comptabilité</a></li>
+                      <li><a href="dts/dts-marketing-communication.html"> Marketing & Communication</a></li>
+                    </ul>
+                  </div>
+                  <button
+                    class="formtions-btn collapsed"
+                    data-toggle="collapse"
+                    data-target="#lp"
+                    aria-expanded="false"
+                    aria-controls="lp"
+                  >
+                    Licence Pro
+                  </button>
+                  <div id="lp" class="collapse" data-parent="#accordion">
+                    <ul>
+                      <li>
+                        <a href="lp/licence-management-entreprenariat.html"> Management & Entrepreneuriat (CNAM)</a>
+                      </li>
+                      <li>
+                        <a href="lp/licence-controle-gestion.html">
+                          Finance , Audit & Contrôle de Gestion (Paris 13
+                          Sorbonne)</a
+                        >
+                      </li>
+                      <li>
+                        <a href="lp/licence-dev-web-mobile.html">
+                          Développement WEB & Mobile (Paris 13- Sorbonne)</a
+                        >
+                      </li>
+                      <li>
+                        <a href="lp/licence-logistique-internationale.html">
+                          Logistique & Transport International (CNAM)</a
+                        >
+                      </li>
+                      <li>
+                        <a href="lp/licence-marketing-digital.html">
+                          Marketing Digital & Web Analytics (CNAM)</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- <hr /> -->
+              </div>
+              <div class="col-md-4 footer-links">
+                <h4>Contact</h4>
+                <form >
+                  <label for="name">Nom Complet</label>
+                  <input type="text" class="form-control form-control-sm" />
+                  <label for="name">Email</label>
+                  <input type="email" class="form-control form-control-sm" />
+                  <label for="name">Phone</label>
+                  <input type="tel" class="form-control form-control-sm" />
+                  <br />
+                  <button>Envoyer</button>
+                </form>
+                <hr />
+                <h4>Liens Utils</h4>
+                <ul>
+                  <li><a href="qui-sommes-nous.html"> Qui sommes nous ?</a></li>
+                  <li><a href="projet-pedagogique.html"> Projet pédagogique</a></li>
+                  <li><a href="campus-et-laureats.html"> Campus & Lauréats</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container d-md-flex py-4 the-border-top">
+          <div class="mr-md-auto text-center text-md-left">
+            <div class="copyright">
+              &copy; Copyright <strong><span>IFIAG</span></strong
+              >. Tous les droits sont réservés .
+            </div>
+            <!-- <div class="credits">Designed & Developed by <a
+              target="_blank"
+              href="https://www.linkedin.com/in/ayoub-bendrimou">DoraymonIT .</a></div> -->
+          </div>
+          <div class="social-links text-center text-md-right pt-3 pt-md-0">
+            <a href="https://www.facebook.com/ifiag.officiel/" class="facebook"
+                  target="_blank" rel="noopener noreferrer"
+                  ><i class="fa fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/ifiag_vocational_school_casa/" class="instagram"
+                  target="_blank" rel="noopener noreferrer"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+          </div>
+        </div>
+      </footer>
+        <!-- Messenger Plugin de discussion Code -->
+      <div id="fb-root"></div>
+
+      <!-- Your Plugin de discussion code -->
+      <div id="fb-customer-chat" class="fb-customerchat"></div>
+
+      <!-- Whatssup Plugin -->
+      <div class="dmkt-whatsapp-button">
+        <a target="_blank" href="https://wa.me/+212661482243/">
+          <i class="fa fa-whatsapp"></i>
+        </a>
+      </div>
+      <!-- End Footer -->
+    </div>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+    <script src="https://unpkg.com/scrollama@0.6.1/build/scrollama.js"></script> -->
+    <script src="assets/js/jquery/jquery.min.js"></script>
+    <script src="assets/js/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/js/owl.carousel/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+    <!-- <script src="https://unpkg.com/intersection-observer"></script>
+    <script src="https://unpkg.com/scrollama"></script> -->
+    <script src="assets/js/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/js/counterup/counterup.min.js"></script>
+    <script src="assets/js/aos/aos.js"></script>
+      <script src="assets/js/menu.js"></script> <!-- Messenger Plugin de discussion Code -->
+      <div id="fb-root"></div>
+
+      <!-- Your Plugin de discussion code -->
+      <div id="fb-customer-chat" class="fb-customerchat"></div>
+
+      <!-- Whatssup Plugin -->
+      <div class="dmkt-whatsapp-button">
+        <a target="_blank" href="https://wa.me/+212661482243/">
+          <i class="fa fa-whatsapp"></i>
+        </a>
+      </div>
+  </body>
+</html>

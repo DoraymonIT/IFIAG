@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="assets/js/bootstrap/css/bootstrap.min.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css"
+    />
+    <link
+      href="assets/js/owl.carousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/home-page.css" />
+    <link rel="stylesheet" href="assets/css/clients.css" />
+    <link rel="stylesheet" href="assets/css/formations.css" />
+    <link rel="stylesheet" href="assets/css/cta.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/css/menu.css" />
+    <link rel="stylesheet" href="assets/css/loading.css" />
+    <title>Projet pédagogique - IFIAG</title>
+  </head>
+
+  <body>
+    <!-- <div id="loading"></div> -->
+    <div style="background-color: #f9fafa">
+      <!-- //============================================
+                     Header Start 
+        =============================================// -->
+      <!-- Mobile Menu -->
+      <div class="mobile-menu-container">
+        <div class="mobile-menu-close"></div>
+        <div id="mobile-menu-wrap"></div>
+      </div>
+      <!-- Mobile Menu End -->
+
+      <header id="header" class="header header-sticky sticky-top">
+        <!--// Main header -->
+        <div class="main-header">
+          <div class="container">
+            <nav class="navbar navbar-expand-lg main-navigation p-0">
+              <!--  Show this only on mobile to medium screens  -->
+              <a class="navbar-brand" href="index.html">
+                <img
+                  src="assets/img/IFIAG.png"
+                  class="img-fluid"
+                  alt="IFIAG Logo"
+                  width="100px"
+                />
+              </a>
+              <button class="mobile-menu-trigger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+              <!--  Use flexbox utility classes to change how the child elements are justified  -->
+              <div class="header-navigation-area justify-content-between">
+                <ul id="main-menu" class="menu m-0">
+                  <li class="menu-item-has-children">
+                    <a
+                      >L'institut
+                      <i class="fa fa-angle-down" aria-hidden="true"></i
+                    ></a>
+                    <ul class="sub-menu institut">
+                      <li>
+                        <a href="qui-sommes-nous.html" class="forma intitut-a"
+                          >Qui sommes nous ?
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="projet-pedagogique.html"
+                          class="forma intitut-a"
+                          >Projet pédagogique
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="campus-et-laureats.html"
+                          class="forma intitut-a"
+                          >Campus & Lauréats</a
+                        >
+                      </li>
+                      <!-- <li><a href=>Présentation de l’IFIAG</a></li>
+                      <li>
+                        <a href=
+                          >Partenariats académiques et professionnels</a
+                        >
+                      </li>
+                      <li><a href=>Rejoindre l'équipe</a></li> -->
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a
+                      >Formations
+                      <i class="fa fa-angle-down" aria-hidden="true"></i
+                    ></a>
+                    <ul class="sub-menu all-formationss">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="title-menu1">Accès post-bac :</div>
+                          <p class="description-menu1">
+                            Cycles Bac+3 : 2 diplômes accrédités & 1 année de
+                            stage .
+                          </p>
+                          <div class="formations-menu">
+                            <a
+                              class="no-padd intitut-a"
+                              href="dts/dts-gestion-entreprenariat.html"
+                              ><h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Gestion des entreprises
+                              </h5></a
+                            >
+                            <a
+                              class="no-padd intitut-a"
+                              href="dts/dts-developpement-informatique.html"
+                            >
+                              <h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Développement Informatique
+                              </h5></a
+                            >
+                            <a
+                              class="no-padd intitut-a"
+                              href="dts/dts-reseau-systemes-securite.html"
+                              ><h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Réseaux, Systèmes & Sécurité
+                              </h5></a
+                            >
+                            <a
+                              class="no-padd intitut-a"
+                              href="dts/dts-commerce-international-logistique.html"
+                              ><h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Commerce International & Logistique
+                              </h5></a
+                            >
+                            <a
+                              class="no-padd intitut-a"
+                              href="dts/dts-finance-controle-gestion.html"
+                            >
+                              <h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Finance & Comptabilité
+                              </h5></a
+                            >
+                            <a
+                              class="no-padd intitut-a"
+                              href="dts/dts-marketing-communication.html"
+                              ><h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Marketing & Communication
+                              </h5></a
+                            >
+                          </div>
+
+                          <!-- <div class="title-menu1">
+                            Formation Continue Entreprises :
+                          </div>
+                          <div class="formations-menu">
+                            <a
+                              class="no-padd intitut-a"
+                              href="formation-continue/formation-continue-entreprises.html"
+                              ><h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Formation Continue Entreprises
+                              </h5></a
+                            >
+                          </div> -->
+                        </div>
+                        <div class="col-md-6">
+                          <div class="title-menu1">Accès BAC +3 :</div>
+                          <p class="description-menu1">
+                            Licences Professionnelles étatiques françaises
+                          </p>
+                          <div class="formations-menu">
+                            <a
+                              class="no-padd intitut-a"
+                              href="lp/licence-management-entreprenariat.html"
+                              ><h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Management & Entrepreneuriat (CNAM)
+                              </h5></a
+                            >
+                            <a
+                              class="no-padd intitut-a"
+                              href="lp/licence-controle-gestion.html"
+                            >
+                              <h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Finance , Audit & Contrôle de Gestion (Paris 13
+                                Sorbonne)
+                              </h5></a
+                            >
+                            <a
+                              class="no-padd intitut-a"
+                              href="lp/licence-dev-web-mobile.html"
+                              ><h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Développement WEB & Mobile (Paris 13- Sorbonne)
+                              </h5></a
+                            >
+                            <a
+                              class="no-padd intitut-a"
+                              href="lp/licence-logistique-internationale.html"
+                              ><h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Logistique & Transport International (CNAM)
+                              </h5></a
+                            >
+                            <a
+                              class="no-padd intitut-a"
+                              href="lp/licence-marketing-digital.html"
+                              ><h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Marketing Digital & Web Analytics (CNAM)
+                              </h5></a
+                            >
+                          </div>
+
+                         <!--  <div class="title-menu1">
+                            Formations courtes avec Certification :
+                          </div>
+                          <div class="formations-menu">
+                            <a
+                              class="no-padd intitut-a"
+                              href="formation-avec-certificat/formations-courtes-certification.html"
+                              ><h5 class="forma">
+                                <i
+                                  class="fa fa-angle-right fa-fw"
+                                  aria-hidden="true"
+                                ></i>
+                                Formations courtes avec Certification
+                              </h5></a
+                            >
+                          </div>-->
+                        </div>
+                      </div>
+                    </ul>
+                    <!-- <ul class="sub-menu all-formationss">
+                      <div class="title-menu1">
+                        <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        Accès post-bac :
+                      </div>
+                      <p class="description-menu1">
+                        Cycles Bac+3 : 2 diplômes accrédités & 1 année de stage
+                        .
+                      </p>
+
+                      <a class="no-padd" href="dts/dts-finance-controle-gestion.html"
+                        ><h5 class="forma">Finance & Controle de gestion</h5></a
+                      >
+                      <a  class="no-padd" href="dts/dts-developpement-informatique.html">
+                        <h5 class="forma">Développement Informatique</h5></a
+                      >
+                      <a  class="no-padd" href="dts/dts-developpement-informatique.html"
+                        ><h5 class="forma">Réseaux, Systèmes & Sécurité</h5></a
+                      >
+                      <div class="title-menu1">
+                        <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        Accès BAC +3 :
+                      </div>
+                      <p class="description-menu1">
+                        Licences Professionnelles étatiques françaises 
+                      </p>
+                      <a  class="no-padd" href="dts/dts-developpement-informatique.html"
+                        ><h5 class="forma">Gestion des entreprises</h5></a
+                      >
+                      <a  class="no-padd" href="dts/dts-developpement-informatique.html">
+                        <h5 class="forma">Développement Informatique</h5></a
+                      >
+                      <a  class="no-padd" href="dts/dts-developpement-informatique.html"
+                        ><h5 class="forma">Réseaux, Systèmes & Sécurité</h5></a
+                      >
+                         <div class="title-menu1">
+                        <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        Formation Continue Entreprises :
+                      </div>
+                      <a  class="no-padd" href="dts/dts-developpement-informatique.html"
+                        ><h5 class="forma">Formation Continue Entreprises</h5></a
+                      >
+                      <div class="title-menu1">
+                        <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        Formations courtes avec Certification :
+                      </div>
+                      <a  class="no-padd" href="dts/dts-developpement-informatique.html"
+                        ><h5 class="forma">Formations courtes avec Certification</h5></a
+                      >
+                  
+                  
+                    </ul> -->
+                  </li>
+
+                  <li class="menu-item-has-children">
+                    <a
+                      >Orientation & News
+                      <i class="fa fa-angle-down" aria-hidden="true"></i
+                    ></a>
+                    <ul class="sub-menu autres">
+                      <li>
+                        <a class="intitut-a">Orientation Professionnelle</a>
+                      </li>
+                      <li><a class="intitut-a">Evenements</a></li>
+                      <li><a class="intitut-a">Student Stories</a></li>
+                      <li><a class="intitut-a">News </a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="
+                  header-navigation-area
+                  candidature
+                  menu-item-has-children
+                "
+              >
+                <div class="row">
+                  <div class="col-md-12">
+                    <button
+                      onclick="location.href='candidature.html'"
+                      class="candider"
+                    >
+                      Je candidate
+                    </button>
+                  </div>
+                  <!-- <div class="col-md-6"></div> -->
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <!--// Main End -->
+      </header>
+      <!-- //============================================
+                   Header End
+      =============================================// -->
+      <!-- ======= Vocational School Section Start======= -->
+      <section>
+        <div class="container">
+          <div class="section-title-second">
+            <h2>Vocational School</h2>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              <p class="section-title-second-p">
+                Vocational School : former des managers-leaders pour accompagner
+                le développement du continent Africain au 21ème siècle. Le
+                projet « Vocational School » est basé sur la notion de vocation
+                : c’est-à-dire la rencontre des capacités et des compétences
+                d’une personne avec le sens qu’elle souhaite donner à sa vie
+                afin de former son projet personnel et professionnel.
+                <br />
+                Le parcours d’un étudiant à IFIAG est construit dans cette
+                optique : il permet à chaque étudiant de développer ses forces
+                distinctives.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Vocational School Section End --->
+      <!-- ======= Universités partenaires Section Start======= -->
+      <section>
+        <div class="container">
+          <div class="section-title-second">
+            <h2>Universités partenaires</h2>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              <p class="section-title-second-p">
+                Nous délivrons des diplômes d’état Français pour notre cycle
+                BAC+3. Nous avons noué des partenariats avec les prestigieuses
+                universités en France.
+              </p>
+              <div class="row justify-content-center">
+                <div class="col-xl-10">
+                  <br />
+                  <div class="owl-carousel clients-carousel owl-theme">
+                    <img src="assets/img/clients/CNAM_Logo.png" alt="CNAM" />
+                    <img
+                      src="assets/img/clients/univ-sorbonne-france.png"
+                      alt="Sorbonne Paris 13"
+                    />
+                    <img
+                      src="assets/img/clients/universite-de-bordeaux-logo-vector.png"
+                      alt="Universite Bordeaux"
+                    />
+                    <img
+                      src="assets/img/Logo-accreditation.png"
+                      alt="Accreditation maroc"
+                    />
+                    <img
+                      src="assets/img/logo_france-accre.png"
+                      alt="Accreditation france"
+                    />
+                    <img
+                      src="assets/img/le-ministere-de-leducation-nationale.png"
+                      alt="le-ministere-de-leducation-nationale"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Universités partenaires Section End --->
+      <!-- ======= Entreprises partenaires Section Start======= -->
+      <section>
+        <div class="container">
+          <div class="section-title-second">
+            <h2>Entreprises partenaires</h2>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              <p class="section-title-second-p">
+                A IFIAG, nous sommes convaincus qu’une formation
+                professionnalisante ne peut pas réussir sans la participation
+                active des entreprises. Dans ce sens, nous avons signé plus de
+                50 partenariats avec les entreprises pour faciliter l'insertion
+                professionnelle de nos étudiants et lauréats
+              </p>
+              <div class="row justify-content-center">
+                <div class="col-xl-10">
+                  <br />
+                  <div class="owl-carousel clients-carousel owl-theme">
+                    <img src="assets/img/clients/logos/logo1.png" alt="IBM" />
+                    <img src="assets/img/clients/logos/logo2.png" alt="KPMG" />
+                    <img src="assets/img/clients/logos/logo3.png" alt="FEDEX" />
+                    <img src="assets/img/clients/logos/logo4.png" alt="Atos" />
+                    <img src="assets/img/clients/logos/logo5.png" alt="Jumia" />
+                    <img
+                      src="assets/img/clients/logos/logo6.png"
+                      alt="CapgeMini"
+                    />
+                    <img
+                      src="assets/img/clients/logos/logo7.png"
+                      alt="Marsa Maroc"
+                    />
+                    <img
+                      src="assets/img/clients/logos/logo8.png"
+                      alt="Societe generale"
+                    />
+                    <img
+                      src="assets/img/clients/logos/logo9.png"
+                      alt="Deloitte"
+                    />
+                    <img
+                      src="assets/img/clients/logos/logo10.png"
+                      alt="Mosaik"
+                    />
+                    <img src="assets/img/clients/logos/logo11.png" alt="RAM" />
+                    <img
+                      src="assets/img/clients/logos/logo12.png"
+                      alt="Attijari Wafa Bank"
+                    />
+                    <img
+                      src="assets/img/clients/logos/logo13.png"
+                      alt="P and G"
+                    />
+                    <img
+                      src="assets/img/clients/logos/logo14.png"
+                      alt="BMCE Bank"
+                    />
+                    <img
+                      src="assets/img/clients/logos/logo15.png"
+                      alt="Unilever"
+                    />
+                    <img src="assets/img/clients/logos/logo16.png" alt="DELL" />
+                    <img src="assets/img/clients/logos/logo17.png" alt="CGI" />
+                    <img src="assets/img/clients/logos/logo18.png" alt="WU" />
+                    <img
+                      src="assets/img/clients/logos/logo19.png"
+                      alt="GR8 Com"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Entreprises partenaires Section End --->
+      <!-- ======= Les Formateurs IFIAG Section Start======= -->
+      <!-- <section>
+        <div class="container">
+          <div class="section-title-second">
+            <h2>Les Formateurs IFIAG</h2>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              <p class="section-title-second-p">
+                Le corps professoral de IFIAG représente notre socle de
+                compétences stratégiques. Il réunit des enseignants-chercheurs
+                ainsi que des professionnels de chaque métiers dont nous formons
+                nos étudiants, afin de diffuser les nouvelles connaissances et
+                pratiques du 21ème siècle.
+              </p>
+              <ul class="list-members">
+                <li class="member">
+                  <div class="member-image">
+                    <img
+                      src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/1.png"
+                    />
+                  </div>
+                  <div class="member-info">
+                    <h3>Hazel Andrea</h3>
+                    <p>Founder & CEO</p>
+                    <div class="social-link">
+                      <i class="fa fa-facebook-f"></i>
+                      <i class="fa fa-twitter"></i>
+                      <i class="fa fa-linkedin"></i>
+                    </div>
+                  </div>
+                </li>
+                <li class="member">
+                  <div class="member-image">
+                    <img
+                      src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/2.png"
+                    />
+                  </div>
+                  <div class="member-info">
+                    <h3>Lucas Edward</h3>
+                    <p>Product Manager</p>
+                    <div class="social-link">
+                      <i class="fa fa-facebook-f"></i>
+                      <i class="fa fa-twitter"></i>
+                      <i class="fa fa-linkedin"></i>
+                    </div>
+                  </div>
+                </li>
+                <li class="member">
+                  <div class="member-image">
+                    <img
+                      src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/3.png"
+                    />
+                  </div>
+                  <div class="member-info">
+                    <h3>Ella Piper</h3>
+                    <p>Marketing Head</p>
+                    <div class="social-link">
+                      <i class="fa fa-facebook-f"></i>
+                      <i class="fa fa-twitter"></i>
+                      <i class="fa fa-linkedin"></i>
+                    </div>
+                  </div>
+                </li>
+                <li class="member">
+                  <div class="member-image">
+                    <img
+                      src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/4.png"
+                    />
+                  </div>
+                  <div class="member-info">
+                    <h3>Jaxon Mathew</h3>
+                    <p>Affiliate Manager</p>
+                    <div class="social-link">
+                      <i class="fa fa-facebook-f"></i>
+                      <i class="fa fa-twitter"></i>
+                      <i class="fa fa-linkedin"></i>
+                    </div>
+                  </div>
+                </li>
+                <li class="member">
+                  <div class="member-image">
+                    <img
+                      src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/4.png"
+                    />
+                  </div>
+                  <div class="member-info">
+                    <h3>Jaxon Mathew</h3>
+                    <p>Affiliate Manager</p>
+                    <div class="social-link">
+                      <i class="fa fa-facebook-f"></i>
+                      <i class="fa fa-twitter"></i>
+                      <i class="fa fa-linkedin"></i>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- Les Formateurs IFIAG Section End --->
+      <!-- ======= Nos Pôles de Compétences Section Start======= -->
+      <section>
+        <div class="container">
+          <div class="section-title-second">
+            <h2>Nos Pôles de Compétences</h2>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              <p class="section-title-second-p">
+                Depuis 1986, nous sommes à l’écoute du marché de l’emploi. Pour
+                cela, nos programmes sont conçus de façon à répondre aux besoins
+                des entreprises. Le but est de faire ressortir notre choix
+                stratégique de “métiers” sur lesquels on prépare nos futurs
+                managers.
+              </p>
+              <div class="row">
+                <div class="col-md-4">
+                  <p><img src="assets/img/projet_pedagogique.png" width="100%" alt="Poles de IFIAG"></p>
+                </div>
+                <div class="col-md-8">
+                  <div class="row">
+                    <div class="col-md-6"> <div class="pole">
+                      <div class="icon">
+                        <img
+                          src="assets/icons/project-management.svg"
+                          width="50px"
+                          alt="Métiers du Management & de l’Entrepreneuriat-IFIAG"
+                        />
+                      </div>
+                      <h5>Métiers du Management & de l’Entrepreneuriat</h5>
+                    </div></div>
+                    <div class="col-md-6"><div class="pole">
+                      <div class="icon">
+                        <img
+                          src="assets/icons/finance.svg"
+                          width="50px"
+                          alt="Métiers de la Finance et de la Comptabilité-IFIAG"
+                        />
+                      </div>
+                      <h5>Métiers de la Finance et de la Comptabilité</h5>
+                    </div></div>
+                    <div class="col-md-6"> <div class="pole">
+                      <div class="icon">
+                        <img
+                          src="assets/icons/web.svg"
+                          width="50px"
+                          alt="Métiers de l’Informatique et du WEB-IFIAG"
+                        />
+                      </div>
+                      <h5>Métiers de l’Informatique et du WEB</h5>
+                    </div></div>
+                    <div class="col-md-6"><div class="pole">
+                      <div class="icon">
+                        <img
+                          src="assets/icons/commerce.svg"
+                          width="50px"
+                          alt="Métiers de la Logistique et du Commerce International-IFIAG"
+                        />
+                      </div>
+                      <h5>
+                        Métiers de la Logistique et du Commerce International
+                      </h5>
+                    </div></div>
+                  </div>
+                </div>
+                <!-- <div class="col-md-4">
+                 
+                </div>
+                <div class="col-md-4">
+                  
+                </div>
+                <div class="col-md-4">
+                 
+                </div>
+                <div class="col-md-4">
+                  
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Nos Pôles de Compétences Section End --->
+
+      <!-- ======= Footer ======= -->
+      <footer id="footer">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 footer-links">
+                <!-- <h4>Intro</h4> -->
+                <img
+                  src="../assets/icons/ifiag-blanc.png"
+                  width="110px"
+                  alt="IFIAG"
+                />
+                <p>
+                  <br />
+                  Depuis 1986, nous sommes à l’écoute du marché de l’emploi.
+                  Pour cela, nos programmes sont conçus de façon à répondre aux
+                  besoin des entreprises. Le but est de faire ressortir notre
+                  choix stratégique de “métiers” sur lesquels on prépare nos
+                  futurs managers.
+                </p>
+                <hr />
+                <h4>Nos Locations ?</h4>
+                <ul>
+                  <li>
+                    <a href="../campus-et-laureats.html"> IFIAG CASABLANCA</a>
+                  </li>
+                  <li><a href="../campus-et-laureats.html"> IFIAG RABAT</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4 footer-links">
+                <h4>Nos Formations</h4>
+                <div id="accordion">
+                  <button
+                    class="formtions-btn collapsed"
+                    data-toggle="collapse"
+                    data-target="#dts"
+                    aria-expanded="false"
+                    aria-controls="dts"
+                  >
+                    Diplôme Technicien Spécialisé
+                  </button>
+                  <div id="dts" class="collapse" data-parent="#accordion">
+                    <ul>
+                      <li>
+                        <a href="dts/dts-gestion-entreprenariat.html">
+                          Gestion des entreprises</a
+                        >
+                      </li>
+                      <li>
+                        <a href="dts/dts-developpement-informatique.html">
+                          Développement Informatique</a
+                        >
+                      </li>
+                      <li>
+                        <a href="dts/dts-reseau-systemes-securite.html">
+                          Réseaux, Systèmes & Sécurité</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="dts/dts-commerce-international-logistique.html"
+                        >
+                          Logistique & Transport International</a
+                        >
+                      </li>
+                      <li>
+                        <a href="dts/dts-finance-controle-gestion.html">
+                          Finance & Comptabilité</a
+                        >
+                      </li>
+                      <li>
+                        <a href="dts/dts-marketing-communication.html">
+                          Marketing & Communication</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <button
+                    class="formtions-btn collapsed"
+                    data-toggle="collapse"
+                    data-target="#lp"
+                    aria-expanded="false"
+                    aria-controls="lp"
+                  >
+                    Licence Pro
+                  </button>
+                  <div id="lp" class="collapse" data-parent="#accordion">
+                    <ul>
+                      <li>
+                        <a href="lp/licence-management-entreprenariat.html">
+                          Management & Entrepreneuriat (CNAM)</a
+                        >
+                      </li>
+                      <li>
+                        <a href="lp/licence-controle-gestion.html">
+                          Finance , Audit & Contrôle de Gestion (Paris 13
+                          Sorbonne)</a
+                        >
+                      </li>
+                      <li>
+                        <a href="lp/licence-dev-web-mobile.html">
+                          Développement WEB & Mobile (Paris 13- Sorbonne)</a
+                        >
+                      </li>
+                      <li>
+                        <a href="lp/licence-logistique-internationale.html">
+                          Logistique & Transport International (CNAM)</a
+                        >
+                      </li>
+                      <li>
+                        <a href="lp/licence-marketing-digital.html">
+                          Marketing Digital & Web Analytics (CNAM)</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- <hr /> -->
+              </div>
+              <div class="col-md-4 footer-links">
+                <h4>Contact</h4>
+                <form>
+                  <label for="name">Nom Complet</label>
+                  <input type="text" class="form-control form-control-sm" />
+                  <label for="name">Email</label>
+                  <input type="email" class="form-control form-control-sm" />
+                  <label for="name">Phone</label>
+                  <input type="tel" class="form-control form-control-sm" />
+                  <br />
+                  <button class="btn-envoyer-footer">
+                    Envoyer
+                    <i class="fa fa-angle-right fa-fw" aria-hidden="true"></i>
+                  </button>
+                </form>
+                <hr />
+                <h4>Liens Utils</h4>
+                <ul>
+                  <li><a href="qui-sommes-nous.html"> Qui sommes nous ?</a></li>
+                  <li>
+                    <a href="projet-pedagogique.html"> Projet pédagogique</a>
+                  </li>
+                  <li>
+                    <a href="campus-et-laureats.html"> Campus & Lauréats</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container d-md-flex py-4 the-border-top">
+          <div class="mr-md-auto text-center text-md-left">
+            <div class="copyright">
+              &copy; Copyright <strong><span>IFIAG</span></strong
+              >. Tous les droits sont réservés .
+            </div>
+            <!-- <div class="credits">Designed & Developed by <a
+              target="_blank"
+              href="https://www.linkedin.com/in/ayoub-bendrimou">DoraymonIT .</a></div> -->
+          </div>
+          <div class="social-links text-center text-md-right pt-3 pt-md-0">
+            <a
+              href="https://www.facebook.com/ifiag.officiel/"
+              class="facebook"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fa fa-facebook"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/ifiag_vocational_school_casa/"
+              class="instagram"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fa fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
+      <!-- Messenger Plugin de discussion Code -->
+      <div id="fb-root"></div>
+
+      <!-- Your Plugin de discussion code -->
+      <div id="fb-customer-chat" class="fb-customerchat"></div>
+
+      <!-- Whatssup Plugin -->
+      <div class="dmkt-whatsapp-button">
+        <a target="_blank" href="https://wa.me/+212661482243/">
+          <i class="fa fa-whatsapp"></i>
+        </a>
+      </div>
+      <!-- End Footer -->
+    </div>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+    <script src="https://unpkg.com/scrollama@0.6.1/build/scrollama.js"></script> -->
+    <script src="assets/js/jquery/jquery.min.js"></script>
+    <script src="assets/js/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/js/owl.carousel/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+
+    <script src="assets/js/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/js/menu.js"></script>
+    <!-- Messenger Plugin de discussion Code -->
+
+    <script>
+      var chatbox = document.getElementById("fb-customer-chat");
+      chatbox.setAttribute("page_id", "121913884575891");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: "v12.0",
+        });
+      };
+
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/fr_FR/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "2626120351025813");
+      fbq("track", "PageView");
+    </script>
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        src="https://www.facebook.com/tr?id=2626120351025813&ev=PageView
+    &noscript=1"
+      />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+  </body>
+</html>

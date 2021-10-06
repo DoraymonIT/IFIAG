@@ -1,0 +1,623 @@
+/* Landing Page 1 */
+
+.fait_choix {
+  background-color: #f8f6f7;
+  padding: 15px 0px;
+}
+.intro_fait_choix {
+  background: url(../img/landing-page1-back.png), #394258;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 4px;
+  text-align: center;
+  color: white;
+  height: 100%;
+}
+.intro_fait_choix h4 {
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 47px;
+  margin: 30px 0px;
+  text-transform: uppercase;
+}
+.intro_fait_choix h6 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+.intro_fait_choix a,
+.colorful {
+  color: #fd5533;
+}
+.colorful-size {
+  font-size: 30px;
+}
+.nos_formations_fais_choix {
+  background-image: url(../img/bg-rigth-banner.png);
+  background-repeat: repeat;
+  background-position: top;
+  padding-top: 20px;
+}
+.nos_formations_fais_choix h6 {
+  font-weight: 600;
+  font-size: 17px;
+  color: #39424e;
+}
+.nos_formations_fais_choix h1 {
+  font-weight: 900;
+  font-size: 52px;
+  color: #39424e;
+}
+.je_candidate_choix {
+  color: #fd5533;
+
+  background-color: white;
+  padding: 19px 59px;
+  text-decoration: none;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: 800;
+}
+.je_candidate_choix:hover {
+  text-decoration: none !important;
+  background-color: #fd5533;
+  color: white;
+}
+/* Landing Page 2  */
+.je_candidate_choix2 {
+  background: #ff8154;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  color: white;
+  padding: 15px 38px;
+  font-size: 14px;
+}
+.je_candidate_choix2:hover {
+  text-decoration: none !important;
+  color: white;
+}
+.qr_message {
+  margin: 20px 5px;
+  background: url(../img/bg-dots1.svg), white;
+  background-repeat: no-repeat;
+  background-size: 2000px;
+  /* background: rgba(57, 66, 78, 0.08); */
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+  padding: 21px;
+  color: #39424e;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.title_qr {
+  font-weight: bold;
+  font-size: 20px;
+  color: #39424e;
+}
+.qr_hero h3 {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 57px;
+  color: #39424e;
+}
+.qr_hero {
+  background-image: url(../img/bg-rigth-banner.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.formations_qr,
+.formations_qr_mobile_a {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 20px 0px;
+  color: #39424e;
+}
+.formations_qr:hover,
+.formations_qr_mobile_a:hover {
+  text-decoration: none;
+  color: #fd5533;
+}
+.formations_qr_mobile_a {
+  padding: 20px 50px;
+  border: 2px solid #fd5533;
+}
+.qr_candidate {
+  padding: 20px 50px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.qr_candidate:hover {
+  box-shadow: none;
+}
+/* .qr_ecole{
+    background: url("../img/landing-page2-back.png");
+    background-attachment: fixed;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+} */
+.qr_ecole h4 {
+  font-weight: 800;
+  color: #ff8154;
+}
+.qr_ecole p {
+  font-weight: 400;
+  color: #39424e;
+}
+.text-right {
+  margin-top: 10px;
+}
+.formations_qr_mobile {
+  display: none;
+}
+.image_formation {
+  cursor: pointer;
+}
+.je_candidate_choix3 {
+  padding: 19px 59px;
+}
+.footer_p {
+  padding-top: 8px;
+  font-size: 12px;
+  color: #39424e;
+  font-weight: 400;
+}
+
+/* Timeline */
+.container-timeline {
+  position: relative;
+}
+
+.container-timeline ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  display: inline-block;
+  counter-reset: wa-process-counter;
+}
+.fw-bold {
+  font-weight: 700;
+  color: #394253;
+
+  font-size: 17px;
+}
+.fw-bold-p {
+  line-height: 26px;
+  color: #394258;
+  font-weight: 500;
+
+  font-size: 14px;
+}
+.fa-arrow-right {
+  color: #fd5533;
+}
+.titluu {
+  padding: 30px;
+  font-weight: 800;
+  font-size: 38px;
+  color: #39424e;
+}
+.titluu1 {
+  padding: 10px;
+  font-weight: 800;
+  font-size: 32px;
+  color: #39424e;
+}
+.video {
+  /* border-radius: 5px; */
+  /* border-top: 2px solid #fd5533; */
+  box-shadow: 7px 7px 0px 0px #fd5533;
+  padding: 2px;
+  margin-left: -7px;
+
+  border-radius: 0px 10px;
+}
+.why-ifiag p {
+  color: #39424e;
+  font-weight: 700;
+  font-size: 17px;
+}
+.container-timeline {
+  text-align: center;
+}
+.container-timeline ul li {
+  text-align: left;
+  list-style: none;
+  margin: 0;
+  border-left: 2px solid #fd5533;
+  padding: 0 0 1px 36px;
+  position: relative;
+  counter-increment: wa-process-counter;
+}
+
+.container-timeline ul li:last-child {
+  border: 0;
+}
+
+.container-timeline ul li::before {
+  position: absolute;
+  left: -21px;
+  top: 0;
+  /* content: counter(wa-process-counter); */
+  content: "🚀";
+  border: 2px solid #fd5533;
+  border-radius: 45px;
+  background: white;
+  height: 41px;
+  width: 41px;
+  text-align: center;
+  line-height: 41px;
+}
+
+/* @media (min-width: 1200px) {
+  .container-timeline ul {
+    display: flex;
+    padding-left: 0;
+    padding-top: 20px;
+  }
+
+  .container-timeline ul li {
+    flex: 1 1 0;
+    border-left: 0;
+    border-top: 2px solid #fd5533;
+    padding: 50px 2em 0 0;
+  }
+
+  .container-timeline ul li::before {
+    left: 0;
+    top: -21px;
+  }
+} */
+.candidateure-c {
+  margin: 15px 0px 40px 0px;
+
+  text-align: center;
+}
+.any_questions {
+  font-size: 11px;
+  color: #337ab7;
+  font-weight: 700;
+}
+/* Landing 3 LP */
+.hero-page-landing {
+  background: url(../img/landing-page2-back.png) #39424e;
+  background-size: cover;
+  height: 100%;
+}
+.hero-page-landing h6 {
+  line-height: 27px;
+}
+.color_blue {
+  color: #337ab7;
+}
+.color_orange {
+  color: #fd5533;
+}
+.text_underline {
+  /* text-decoration: underline; */
+  border-bottom: 2px solid white;
+}
+.text_underline:hover {
+  background-color: white;
+  color: #fd5533;
+  transition: all 0.5s;
+}
+.conditions-acces {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #343a40;
+  gap: 5px;
+  margin-top: 30px;
+}
+.conditions-acces-item {
+  text-align: center;
+  /* background-color: white; */
+  /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+ border-radius: 4px; */
+}
+.conditions-acces-item h6 {
+  font-size: 11px;
+  font-weight: 700;
+  color: #343a40;
+}
+.my-h6 {
+  font-size: 11px;
+  font-weight: 700;
+  color: #343a40;
+}
+.fa-icon-cs {
+  color: #fd5533;
+}
+
+.background_orange {
+  background-color: #fd5533;
+  padding: 50px 20px 25px 20px;
+}
+.background_orange1 {
+  background: url(../img/logo_france-accre.png) #fd5533;
+  padding: 50px 20px 25px 20px;
+  background-size: 100px;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+.the_white {
+  color: rgb(255, 255, 255);
+}
+.color_white {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  line-height: 27px;
+  /* font-size: 14px; */
+}
+.color_text {
+  color: #39424e;
+}
+.year_in_ifiag{
+ box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    padding: 15px 8px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #39424e;
+    border-radius: 0px 30px 0px 30px;
+    margin: 15px 5px;
+    background-color: white;
+    /* animation: down1 1.5s infinite; */
+}
+#year_with_us{
+  background-image: url('../img/modern-shapes-bg.png');
+  background-repeat: no-repeat;
+  background-size: 2000px;
+  background-position: top;
+}
+.year_in_ifiag:hover{
+  box-shadow: none;
+color: #fd5533;
+}
+.align-center {
+  text-align: center;
+}
+.my-bold {
+  font-size: 36;
+  font-weight: 900;
+}
+.my-bold-1 {
+  font-weight: 800;
+}
+.titluu3 {
+  padding: 20px;
+  font-weight: 900;
+  font-size: 36px;
+  color: #39424e;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.nos-formationss {
+  background-color: #fbf7f8;
+}
+.partners {
+  background-color: #f9fafa;
+}
+.why-us-summary p {
+  font-weight: 700;
+  font-size: 13px;
+  color: #39424e;
+}
+.process_content22 {
+  padding: 40px 10px;
+}
+.process_content2 h6 {
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 15px;
+  padding: 0px 20px;
+  color: #39424e;
+}
+.process_content2 {
+  background: url(../img/bg__with-dotted.svg);
+  background-size: 989px;
+  background-position: center;
+  padding: 20px 0px;
+}
+/* .process_content { */
+  /* background: url(../img/rejoindre\ ifiag\ 1.png), #fd5533; */
+  /* background-size: 989px; */
+  /* background-position: center; */
+/* } */
+.fa-angle-down {
+  color: white;
+  animation: down 1.5s infinite;
+}
+
+@keyframes down {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translateY(15px);
+  }
+  40% {
+    transform: translate(0);
+  }
+}
+@keyframes down2 {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translateY(5px);
+  }
+  40% {
+    transform: translate(0);
+  }
+}
+@keyframes down3 {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translateY(8px);
+  }
+  40% {
+    transform: translate(0);
+  }
+}
+@keyframes down4 {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translateY(10px);
+  }
+  40% {
+    transform: translate(0);
+  }
+}
+.underlined,.underlined1 {
+  position: relative;
+  display: inline-block !important;
+}
+
+.underlined::before {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    height: 7px;
+    width: 100% !important;
+    border: solid 8px #fd5533;
+    border-color: #fd5533 transparent transparent transparent;
+    border-radius: 50%;
+}
+.underlined1::before {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    height: 7px;
+    width: 100% !important;
+    border: solid 8px #337ab7;
+    border-color:  #337ab7 transparent transparent transparent;
+    border-radius: 50%;
+}
+.qui_acce_section{
+  background: url('../img/landing-page2-back.png'),#394258;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.qui_acce_section .titluu3{
+  color: white;
+}
+.qui_acce h2{
+  color: #fd5533;
+  font-weight: 800;
+}
+.qui_acce p{
+font-weight: 700;
+color: white;;
+}
+.left{
+  text-align: left;
+}
+.italic{
+  font-style: italic;
+  font-weight: 500;
+}
+
+
+
+/* Media query */
+@media only screen and (max-width: 990px) {
+  .qr_hero h3 {
+    font-size: 26px;
+    line-height: 47px;
+  }
+  .qr_candidate {
+    padding: 15px 30px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .formations_qr {
+    font-size: 12px;
+    font-weight: 700;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .text-right {
+    margin-top: -35px;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .conditions-acces {
+    display: grid;
+
+    gap: 2px;
+    margin-top: 10px;
+  }
+  .titluu3 {
+    font-size: 28px;
+  }
+  .paddong {
+    padding: 0px 20px;
+    line-height: 40px;
+  }
+  .paddong_h6 {
+    padding: 0px 20px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  /* .conditions-acces-item h6 {
+    font-size: 10px;
+    font-weight: 700;
+    color: #343a40;
+  } */
+  .background_orange1 {
+  
+    background-position: top center;
+  }
+}
+@media only screen and (max-width: 467px) {
+  .intro_fait_choix {
+    padding: 10px;
+  }
+  .intro_fait_choix h4 {
+    font-size: 18px;
+    line-height: 39px;
+  }
+  .colorful-size {
+    font-size: 24px;
+  }
+  .intro_fait_choix h6 {
+    font-size: 14px;
+  }
+  .nos_formations_fais_choix h1 {
+    font-size: 40px;
+  }
+  .nos_formations_fais_choix h6 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #39424e;
+    margin-bottom: unset !important;
+  }
+}
+@media only screen and (max-width: 378px) {
+  .je_candidate_choix {
+    padding: 19px 46px;
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 349px) {
+  .je_candidate_choix {
+    padding: 19px 36px;
+    font-size: 11px;
+  }
+  .formations_qr {
+    display: none;
+  }
+  .formations_qr_mobile {
+    display: block;
+  }
+}

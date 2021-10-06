@@ -1,0 +1,29 @@
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.page {
+  display: none;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+#loading {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  /* background-color: white; */
+  /* background-image: url("../img/loading.gif"); */
+  background-image: url("../favicon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}

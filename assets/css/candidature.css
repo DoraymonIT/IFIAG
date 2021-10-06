@@ -1,0 +1,84 @@
+.candidature-form {
+  padding: 15px 0px;
+}
+.envoyer-btn {
+    background: #ff7458;
+  border: none;
+  padding: 15px 50px;
+  font-size: 15px;
+  font-weight: 600;
+  /* transition: all 0.1s; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 45px;
+}
+.envoyer-btn:hover {
+
+  box-shadow: none;
+}
+.color-orange {
+  color: #fd5533;
+}
+.bold {
+  font-weight: 900;
+}
+label{
+  font-weight: 700;
+}
+/* .candidature-bg:before {
+    content:"";
+  background: url(../img/10730.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  right: 0;
+  bottom: 0px;
+  opacity: 0.5;
+} */
+/* .candidature-bg:before {
+  content:"";
+  background: linear-gradient(192.19deg, #fd5533 8.88%, #ff9b5b 101.46%);
+  background: url(../img/3473575.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  bottom: 60px;
+  top: 60px;
+  left: 0;
+  right: 0;
+  transform: skewX(-4deg);
+} */
+.the-form {
+  margin-top: 25px;
+  padding: 35px;
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+  border-radius: 10px;
+  color: #39424e;
+  background-color: white;
+}
+.info{
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    padding: 20px 0px;
+    /* background: ; */
+    background: url('../img/blob.svg'),#ff7458;
+    background-size: cover;
+    background-position: bottom;
+    /* text-align: center; */
+    border-radius: 4px;
+    color: #ffffff;
+    transition: 0.8s ease;
+    /* margin-bottom: 11px; */
+}
+/* .info:hover{
+    box-shadow: none;
+    transform: translateY(-8px);
+} */
+.rencontrez-section{
+  padding: 80px 40px;
+}
+.rencontrez{
+  color: #394253;
+  font-weight: 900;
+  text-align: center;
+}
