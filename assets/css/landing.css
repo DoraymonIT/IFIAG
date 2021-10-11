@@ -163,8 +163,10 @@ padding: 10px;
   color: #ff8154;
 }
 .qr_ecole p {
-  font-weight: 400;
-  color: #39424e;
+  font-weight: 700;
+  /* color: #39424e; */
+  color: white;
+  font-size: 14px;
 }
 .text-right {
   margin-top: 10px;
