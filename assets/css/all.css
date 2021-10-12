@@ -262,7 +262,9 @@ button {
 }
 .hero_image {
   margin: inherit;
-  background: #fd5533;
+  background: url('../img/modern-shapes-bg.png'), #fd5533;
+  background-size: cover;
+    background-position: top;
   border-radius: 190px 5px 5px 5px;
   box-shadow: -8px -8px 1px 4px #337ab9;
   height: 100%;

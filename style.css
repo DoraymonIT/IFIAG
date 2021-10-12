@@ -75,7 +75,8 @@ span.leader_effect {
   font-size: 13px;
 }
 label {
-  font-weight: 500;
+  font-weight: 700;
+  color: #39424e;
   margin: 10px 0px;
 }
 .form-control:focus {
