@@ -619,6 +619,14 @@ color: white;;
 .text-left{
   text-align: left;
 }
+div#crmWebToEntityForm {
+  margin-top: 25px;
+  padding: 35px;
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+  border-radius: 10px;
+  color: #39424e;
+  background-color: white;
+}
 /* Media query */
 @media only screen and (max-width: 990px) {
   .qr_hero h3 {
