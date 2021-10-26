@@ -50,7 +50,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css"
     />
 
-    <link rel="stylesheet" href="assets/css/landing.css" />
+    <!-- <link rel="stylesheet" href="assets/css/landing.css" /> -->
     <link rel="stylesheet" href="assets/css/home-page.css" />
     <link rel="stylesheet" href="assets/css/clients.css" />
     <link rel="stylesheet" href="assets/css/formations.css" />
@@ -412,17 +412,9 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8">
-            <video width="100%" controls>
-              <source
-                src="assets/video/journee-a-lifiag.mp4"
-                type="video/mp4"
-              />
-              <source
-                src="assets/video/journee-a-lifiag.mp4"
-                type="video/mp4"
-              />
-              Your browser does not support the video tag.
-            </video>
+            <iframe width="100%" height="350" src="https://www.youtube.com/embed/0LtClZcO2TU" title="YouTube video player"
+               frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
           </div>
           <div class="col-md-4">
             <h4 class="title-plus-ecole margin0-top">
@@ -707,23 +699,33 @@
                 width="110px"
                 alt="IFIAG"
               />
-              <p>
+              <p style="text-align: left;">
                 <br />
-              IFIAG est l'école privée leader de la formation professionnelle supérieure au Maroc depuis 1986.  Nous ne cessons d'innover pour construire les meilleurs parcours de formation et préparer nos étudiants à devenir les managers performants dont les entreprises ont besoin : fiables, compétents, entreprenants, innovants et créatifs. Plus de 30 000 lauréats ont rejoint IFIAG pour construire leur avenir professionnel avec nous et travaillent dans un réseau de 1000+ entreprises partenaires.
+              IFIAG est l'école privée leader de la formation professionnelle supérieure au Maroc depuis 1986. 
+               Nous ne cessons d'innover pour construire les meilleurs parcours de formation et préparer nos étudiants
+                à devenir les managers performants dont les entreprises ont besoin : fiables, compétents, entreprenants,
+                 innovants et créatifs. Plus de 30 000 lauréats ont rejoint IFIAG pour construire leur avenir professionnel
+                  avec nous et travaillent dans un réseau de 1000+ entreprises partenaires.
               </p>
-              <hr />
-              <h4>Nos Locations ?</h4>
-              <ul>
-                <li>
-                  <a href="../campus-et-laureats.html"> IFIAG CASABLANCA</a>
-                </li>
-                <li><a href="../campus-et-laureats.html"> IFIAG RABAT</a></li>
-              </ul>
+              <div class="accredite_images">
+                <img
+                  src="assets/img/Logo-accreditation.png"
+                  alt="Accreditation maroc"
+                  width="50px"
+                />
+                <img
+                  src="assets/img/logo_france-accre.png"
+                  alt="Accreditation france"
+                  width="50px"
+                />
+              </div>
+             
             </div>
             <div class="col-md-4 footer-links">
               <h4>Nos Formations</h4>
               <div id="accordion">
                 <button
+                  aria-label="Center Align"
                   class="formtions-btn collapsed"
                   data-toggle="collapse"
                   data-target="#dts"
@@ -733,7 +735,9 @@
                   Diplôme Technicien Spécialisé
                 </button>
                 <div id="dts" class="collapse" data-parent="#accordion">
-                  <ul>
+                  <ul style="
+                  text-align: left;
+              ">
                     <li>
                       <a href="dts/dts-gestion-entreprenariat.html">
                         Gestion des entreprises</a
@@ -767,6 +771,7 @@
                   </ul>
                 </div>
                 <button
+                  aria-label="Center Align"
                   class="formtions-btn collapsed"
                   data-toggle="collapse"
                   data-target="#lp"
@@ -776,7 +781,9 @@
                   Licence Pro
                 </button>
                 <div id="lp" class="collapse" data-parent="#accordion">
-                  <ul>
+                  <ul style="
+                  text-align: left;
+              ">
                     <li>
                       <a href="lp/licence-management-entreprenariat.html">
                         Management & Entrepreneuriat (CNAM)</a
@@ -806,24 +813,69 @@
                   </ul>
                 </div>
               </div>
-              <!-- <hr /> -->
+              <!-- <hr />
+              <h4>Nos Partenaires</h4>
+              <div class="row justify-content-center" style="background-color: #f9fafa">
+                <div class="col-md-3">    <img width="100%" src="assets/img/clients/logos/logo1.png" alt="IBM" />
+                </div>
+                <div class="col-md-3"> <img width="100%" src="assets/img/clients/logos/logo2.png" alt="KPMG" />
+                </div>
+                <div class="col-md-3"><img width="100%" src="assets/img/clients/logos/logo3.png" alt="FEDEX" />
+                </div>
+                <div class="col-md-3">  <img width="100%" src="assets/img/clients/logos/logo4.png" alt="Atos" />
+                </div>
+                <div class="col-md-3"><img width="100%" src="assets/img/clients/logos/logo5.png" alt="Jumia" />
+                </div>
+                <div class="col-md-3"> <img width="100%"
+                    src="assets/img/clients/logos/logo6.png"
+                    alt="CapgeMini"
+                  />
+                </div>
+                <div class="col-md-3"> <img
+                    src="assets/img/clients/logos/logo7.png"
+                    alt="Marsa Maroc" width="100%"
+                  /></div>
+                <div class="col-md-3"> <img
+                    src="assets/img/clients/logos/logo8.png"
+                    alt="Societe generale" width="100%"
+                  /></div>
+                <div class="col-md-3"> <img
+                    src="assets/img/clients/logos/logo9.png"
+                    alt="Deloitte" width="100%"
+                  /></div>
+                <div class="col-md-3"> <img
+                    src="assets/img/clients/logos/logo10.png"
+                    alt="Mosaik" width="100%"
+                  /></div>
+                <div class="col-md-3">  <img src="assets/img/clients/logos/logo11.png" width="100%" alt="RAM" /></div>
+                <div class="col-md-3"> <img
+                    src="assets/img/clients/logos/logo12.png"
+                    alt="Attijari Wafa Bank" width="100%"
+                  /></div>
+                  <div class="col-md-3"> <img
+                    src="assets/img/clients/logos/logo13.png"
+                    alt="P and G" width="100%"
+                  /></div>
+                  <div class="col-md-3"><img
+                    src="assets/img/clients/logos/logo14.png"
+                    alt="BMCE Bank" width="100%"
+                  /></div>
+                  <div class="col-md-3"> <img
+                    src="assets/img/clients/logos/logo15.png"
+                    alt="Unilever" width="100%"
+                  /></div>
+                  <div class="col-md-3">  <img src="assets/img/clients/logos/logo16.png" alt="DELL" width="100%"/></div>
+                  <div class="col-md-3">    <img src="assets/img/clients/logos/logo17.png" alt="CGI" width="100%"/></div>
+                  <div class="col-md-3"> <img src="assets/img/clients/logos/logo18.png" alt="WU" width="100%"/></div>
+                  <div class="col-md-3">  <img
+                    src="assets/img/clients/logos/logo19.png" width="100%"
+                    alt="GR8 Com"
+                  /></div>
+               
+              </div> -->
             </div>
             <div class="col-md-4 footer-links">
-              <h4>Contact</h4>
-              <form>
-                <label for="name">Nom Complet</label>
-                <input type="text" class="form-control form-control-sm" />
-                <label for="name">Email</label>
-                <input type="email" class="form-control form-control-sm" />
-                <label for="name">Phone</label>
-                <input type="tel" class="form-control form-control-sm" />
-                <br />
-                <button class="btn-envoyer-footer">
-                  Envoyer
-                  <i class="fa fa-angle-right fa-fw" aria-hidden="true"></i>
-                </button>
-              </form>
-              <hr />
+              
               <h4>Liens Utiles</h4>
               <ul>
                 <li><a href="qui-sommes-nous.html"> Qui sommes nous ?</a></li>
@@ -833,6 +885,14 @@
                 <li>
                   <a href="campus-et-laureats.html"> Campus & Lauréats</a>
                 </li>
+              </ul>
+              <hr />
+              <h4>Nos Locations ?</h4>
+              <ul>
+                <li>
+                  <a href="../campus-et-laureats.html"> IFIAG CASABLANCA</a>
+                </li>
+                <li><a href="../campus-et-laureats.html"> IFIAG RABAT</a></li>
               </ul>
             </div>
           </div>

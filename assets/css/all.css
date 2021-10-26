@@ -323,10 +323,10 @@ div#lp {
   font-weight: 800;
 }
 
-.fa-angle-down1 {
+/* .fa-angle-down1 {
   color: #fd5533;
   animation: down 1.5s infinite;
-}
+} */
 
 @keyframes down {
   0% {
